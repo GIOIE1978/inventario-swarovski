@@ -1,0 +1,3571 @@
+{
+ "generato": "2026-10-09",
+ "fornitore": "Swarovski Int.le d'Italia Srl",
+ "numFatture": 53,
+ "articoli": [
+  {
+   "codice": "1164508",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 AMET F G2",
+   "qta": 1440,
+   "costoUltimo": 0.07,
+   "costoMedio": 0.07,
+   "costoMin": 0.07,
+   "costoMax": 0.07,
+   "acquisti": [
+    {
+     "fattura": "402089078",
+     "data": "2026-06-11",
+     "qta": 720,
+     "costo": 0.07
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 720,
+     "costo": 0.07
+    }
+   ]
+  },
+  {
+   "codice": "1164510",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 AQUA F G2",
+   "qta": 2160,
+   "costoUltimo": 0.07,
+   "costoMedio": 0.07,
+   "costoMin": 0.07,
+   "costoMax": 0.07,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.07
+    },
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.07
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 720,
+     "costo": 0.07
+    }
+   ]
+  },
+  {
+   "codice": "1145362",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "CRY",
+   "colore": "Crystal",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 CRY F G2",
+   "qta": 1440,
+   "costoUltimo": 0.06,
+   "costoMedio": 0.06,
+   "costoMin": 0.06,
+   "costoMax": 0.06,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.06
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 720,
+     "costo": 0.06
+    }
+   ]
+  },
+  {
+   "codice": "1171073",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 EMER F G2",
+   "qta": 1440,
+   "costoUltimo": 0.07,
+   "costoMedio": 0.07,
+   "costoMin": 0.07,
+   "costoMax": 0.07,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.07
+    },
+    {
+     "fattura": "402101972",
+     "data": "2026-09-30",
+     "qta": 720,
+     "costo": 0.07
+    }
+   ]
+  },
+  {
+   "codice": "1173045",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "LAME",
+   "colore": "Light Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 LAME F G2",
+   "qta": 1440,
+   "costoUltimo": 0.07,
+   "costoMedio": 0.07,
+   "costoMin": 0.07,
+   "costoMax": 0.07,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.07
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 720,
+     "costo": 0.07
+    }
+   ]
+  },
+  {
+   "codice": "1164515",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "LSIA",
+   "colore": "Light Siam",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 LSIA F G2",
+   "qta": 720,
+   "costoUltimo": 0.07,
+   "costoMedio": 0.07,
+   "costoMin": 0.07,
+   "costoMax": 0.07,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.07
+    }
+   ]
+  },
+  {
+   "codice": "1171633",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "ROSE",
+   "colore": "Rose",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 ROSE F G2",
+   "qta": 1440,
+   "costoUltimo": 0.07,
+   "costoMedio": 0.07,
+   "costoMin": 0.07,
+   "costoMax": 0.07,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.07
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 720,
+     "costo": 0.07
+    }
+   ]
+  },
+  {
+   "codice": "1171727",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "SAPH",
+   "colore": "Sapphire",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 SAPH F G2",
+   "qta": 1440,
+   "costoUltimo": 0.07,
+   "costoMedio": 0.07,
+   "costoMin": 0.07,
+   "costoMax": 0.07,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.07
+    },
+    {
+     "fattura": "402100688",
+     "data": "2026-09-18",
+     "qta": 720,
+     "costo": 0.07
+    }
+   ]
+  },
+  {
+   "codice": "1171765",
+   "articolo": "1088",
+   "misura": "SS 24",
+   "sigla": "SIAM",
+   "colore": "Siam",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 24 SIAM F G2",
+   "qta": 1440,
+   "costoUltimo": 0.07,
+   "costoMedio": 0.07,
+   "costoMin": 0.07,
+   "costoMax": 0.07,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 720,
+     "costo": 0.07
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 720,
+     "costo": 0.07
+    }
+   ]
+  },
+  {
+   "codice": "1164699",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 AMET F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1164702",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 AQUA F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1144031",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "CRY",
+   "colore": "Crystal",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 CRY F G2",
+   "qta": 576,
+   "costoUltimo": 0.08,
+   "costoMedio": 0.08,
+   "costoMin": 0.08,
+   "costoMax": 0.08,
+   "acquisti": [
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 576,
+     "costo": 0.08
+    }
+   ]
+  },
+  {
+   "codice": "1147993",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "CRY AB",
+   "colore": "Crystal AB",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 CRY AB F G2",
+   "qta": 576,
+   "costoUltimo": 0.11,
+   "costoMedio": 0.12,
+   "costoMin": 0.11,
+   "costoMax": 0.12,
+   "acquisti": [
+    {
+     "fattura": "402083593",
+     "data": "2026-04-20",
+     "qta": 288,
+     "costo": 0.12
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.11
+    }
+   ]
+  },
+  {
+   "codice": "1171074",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 EMER F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1164679",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "JET",
+   "colore": "Jet",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 JET G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402083593",
+     "data": "2026-04-20",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1173046",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "LAME",
+   "colore": "Light Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 LAME F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1164708",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "LSIA",
+   "colore": "Light Siam",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 LSIA F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "5729058",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "RC08",
+   "colore": "RC08",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 1088 SS 29 RC08 F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402090753",
+     "data": "2026-06-24",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1171635",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "ROSE",
+   "colore": "Rose",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 ROSE F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1171728",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "SAPH",
+   "colore": "Sapphire",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 SAPH F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402090867",
+     "data": "2026-06-25",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1171768",
+   "articolo": "1088",
+   "misura": "SS 29",
+   "sigla": "SIAM",
+   "colore": "Siam",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 29 SIAM F G2",
+   "qta": 288,
+   "costoUltimo": 0.09,
+   "costoMedio": 0.09,
+   "costoMin": 0.09,
+   "costoMax": 0.09,
+   "acquisti": [
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.09
+    }
+   ]
+  },
+  {
+   "codice": "1164731",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 AMET F G2",
+   "qta": 432,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.14
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.14
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1164733",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 AQUA F G2",
+   "qta": 144,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402101972",
+     "data": "2026-09-30",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1145369",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "CRY",
+   "colore": "Crystal",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 CRY F G2",
+   "qta": 288,
+   "costoUltimo": 0.12,
+   "costoMedio": 0.12,
+   "costoMin": 0.12,
+   "costoMax": 0.12,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.12
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.12
+    }
+   ]
+  },
+  {
+   "codice": "1171075",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 EMER F G2",
+   "qta": 144,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1173047",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "LAME",
+   "colore": "Light Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 LAME F G2",
+   "qta": 288,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.14
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1164738",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "LSIA",
+   "colore": "Light Siam",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 LSIA F G2",
+   "qta": 288,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.14
+    },
+    {
+     "fattura": "402101972",
+     "data": "2026-09-30",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1171559",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "PERI",
+   "colore": "Peridot",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 PERI F GU",
+   "qta": 144,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "5714682",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "RC08",
+   "colore": "RC08",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 1088 SS 34 RC08 F G2",
+   "qta": 144,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1171638",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "ROSE",
+   "colore": "Rose",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 ROSE F G2",
+   "qta": 288,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402092778",
+     "data": "2026-07-09",
+     "qta": 144,
+     "costo": 0.14
+    },
+    {
+     "fattura": "402101343",
+     "data": "2026-09-24",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1171729",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "SAPH",
+   "colore": "Sapphire",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 SAPH F G2",
+   "qta": 288,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402096476",
+     "data": "2026-08-03",
+     "qta": 144,
+     "costo": 0.14
+    },
+    {
+     "fattura": "402101751",
+     "data": "2026-09-28",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1171771",
+   "articolo": "1088",
+   "misura": "SS 34",
+   "sigla": "SIAM",
+   "colore": "Siam",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 34 SIAM F G2",
+   "qta": 288,
+   "costoUltimo": 0.14,
+   "costoMedio": 0.14,
+   "costoMin": 0.14,
+   "costoMax": 0.14,
+   "acquisti": [
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.14
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.14
+    }
+   ]
+  },
+  {
+   "codice": "1164799",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 AMET F G2",
+   "qta": 720,
+   "costoUltimo": 0.19,
+   "costoMedio": 0.2,
+   "costoMin": 0.19,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 288,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402062578",
+     "data": "2025-11-17",
+     "qta": 288,
+     "costo": 0.2
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.19
+    }
+   ]
+  },
+  {
+   "codice": "1164802",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 AQUA F G2",
+   "qta": 1008,
+   "costoUltimo": 0.2,
+   "costoMedio": 0.2,
+   "costoMin": 0.19,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 288,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402063306",
+     "data": "2025-11-21",
+     "qta": 288,
+     "costo": 0.2
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.19
+    },
+    {
+     "fattura": "402101377",
+     "data": "2026-09-25",
+     "qta": 288,
+     "costo": 0.2
+    }
+   ]
+  },
+  {
+   "codice": "1144033",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "CRY",
+   "colore": "Crystal",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 CRY F G2",
+   "qta": 144,
+   "costoUltimo": 0.17,
+   "costoMedio": 0.17,
+   "costoMin": 0.17,
+   "costoMax": 0.17,
+   "acquisti": [
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.17
+    }
+   ]
+  },
+  {
+   "codice": "1147995",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "CRY AB",
+   "colore": "Crystal AB",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 CRY AB F G2",
+   "qta": 1440,
+   "costoUltimo": 0.22,
+   "costoMedio": 0.23,
+   "costoMin": 0.22,
+   "costoMax": 0.24,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 576,
+     "costo": 0.24
+    },
+    {
+     "fattura": "402064291",
+     "data": "2025-11-27",
+     "qta": 576,
+     "costo": 0.23
+    },
+    {
+     "fattura": "402092858",
+     "data": "2026-07-10",
+     "qta": 288,
+     "costo": 0.22
+    }
+   ]
+  },
+  {
+   "codice": "1171076",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 EMER F G2",
+   "qta": 720,
+   "costoUltimo": 0.19,
+   "costoMedio": 0.2,
+   "costoMin": 0.19,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 288,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402065294",
+     "data": "2025-12-05",
+     "qta": 288,
+     "costo": 0.2
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.19
+    }
+   ]
+  },
+  {
+   "codice": "1164779",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "JET",
+   "colore": "Jet",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 JET G2",
+   "qta": 288,
+   "costoUltimo": 0.18,
+   "costoMedio": 0.19,
+   "costoMin": 0.18,
+   "costoMax": 0.2,
+   "acquisti": [
+    {
+     "fattura": "402082348",
+     "data": "2026-04-10",
+     "qta": 144,
+     "costo": 0.2
+    },
+    {
+     "fattura": "402083593",
+     "data": "2026-04-20",
+     "qta": 144,
+     "costo": 0.18
+    }
+   ]
+  },
+  {
+   "codice": "1173048",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "LAME",
+   "colore": "Light Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 LAME F G2",
+   "qta": 720,
+   "costoUltimo": 0.19,
+   "costoMedio": 0.2,
+   "costoMin": 0.19,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 288,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402062578",
+     "data": "2025-11-17",
+     "qta": 288,
+     "costo": 0.2
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.19
+    }
+   ]
+  },
+  {
+   "codice": "1164808",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "LCTO",
+   "colore": "Light Colorado Topaz",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 LCTO F G2",
+   "qta": 144,
+   "costoUltimo": 0.22,
+   "costoMedio": 0.22,
+   "costoMin": 0.22,
+   "costoMax": 0.22,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 144,
+     "costo": 0.22
+    }
+   ]
+  },
+  {
+   "codice": "1164807",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "LSIA",
+   "colore": "Light Siam",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 LSIA F G2",
+   "qta": 432,
+   "costoUltimo": 0.19,
+   "costoMedio": 0.21,
+   "costoMin": 0.19,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402083593",
+     "data": "2026-04-20",
+     "qta": 288,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.19
+    }
+   ]
+  },
+  {
+   "codice": "1165686",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "LTQU",
+   "colore": "Light Turquoise",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 LTQU F G2",
+   "qta": 144,
+   "costoUltimo": 0.22,
+   "costoMedio": 0.22,
+   "costoMin": 0.22,
+   "costoMax": 0.22,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 144,
+     "costo": 0.22
+    }
+   ]
+  },
+  {
+   "codice": "1171561",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "PERI",
+   "colore": "Peridot",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 PERI F G7",
+   "qta": 288,
+   "costoUltimo": 0.2,
+   "costoMedio": 0.2,
+   "costoMin": 0.2,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 144,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402062191",
+     "data": "2025-11-13",
+     "qta": 144,
+     "costo": 0.2
+    }
+   ]
+  },
+  {
+   "codice": "5702227",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "RC08",
+   "colore": "RC08",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 1088 SS 39 RC08 F G2",
+   "qta": 144,
+   "costoUltimo": 0.19,
+   "costoMedio": 0.19,
+   "costoMin": 0.19,
+   "costoMax": 0.19,
+   "acquisti": [
+    {
+     "fattura": "402089697",
+     "data": "2026-06-15",
+     "qta": 144,
+     "costo": 0.19
+    }
+   ]
+  },
+  {
+   "codice": "1171640",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "ROSE",
+   "colore": "Rose",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 ROSE F G2",
+   "qta": 720,
+   "costoUltimo": 0.19,
+   "costoMedio": 0.2,
+   "costoMin": 0.19,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 288,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402063798",
+     "data": "2025-11-24",
+     "qta": 288,
+     "costo": 0.2
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.19
+    }
+   ]
+  },
+  {
+   "codice": "1171731",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "SAPH",
+   "colore": "Sapphire",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 SAPH F G2",
+   "qta": 720,
+   "costoUltimo": 0.19,
+   "costoMedio": 0.2,
+   "costoMin": 0.19,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 288,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402062819",
+     "data": "2025-11-19",
+     "qta": 288,
+     "costo": 0.2
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.19
+    }
+   ]
+  },
+  {
+   "codice": "1171774",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "SIAM",
+   "colore": "Siam",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 SIAM F G2",
+   "qta": 432,
+   "costoUltimo": 0.19,
+   "costoMedio": 0.21,
+   "costoMin": 0.19,
+   "costoMax": 0.21,
+   "acquisti": [
+    {
+     "fattura": "402083593",
+     "data": "2026-04-20",
+     "qta": 288,
+     "costo": 0.21
+    },
+    {
+     "fattura": "402090867",
+     "data": "2026-06-25",
+     "qta": 144,
+     "costo": 0.19
+    }
+   ]
+  },
+  {
+   "codice": "1164804",
+   "articolo": "1088",
+   "misura": "SS 39",
+   "sigla": "TANZ",
+   "colore": "Tanzanite",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1088 SS 39 TANZ F G2",
+   "qta": 144,
+   "costoUltimo": 0.22,
+   "costoMedio": 0.22,
+   "costoMin": 0.22,
+   "costoMax": 0.22,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 144,
+     "costo": 0.22
+    }
+   ]
+  },
+  {
+   "codice": "5655035",
+   "articolo": "1383",
+   "misura": "MM 10",
+   "sigla": "GTOP",
+   "colore": "Golden Topaz",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1383 MM 100 GTOP F GZ",
+   "qta": 96,
+   "costoUltimo": 1.14,
+   "costoMedio": 1.14,
+   "costoMin": 1.14,
+   "costoMax": 1.14,
+   "acquisti": [
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 96,
+     "costo": 1.14
+    }
+   ]
+  },
+  {
+   "codice": "5655053",
+   "articolo": "1383",
+   "misura": "MM 14",
+   "sigla": "GTOP",
+   "colore": "Golden Topaz",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 1383 MM 140 GTOP F GZ",
+   "qta": 48,
+   "costoUltimo": 2.02,
+   "costoMedio": 2.02,
+   "costoMin": 2.02,
+   "costoMax": 2.02,
+   "acquisti": [
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 48,
+     "costo": 2.02
+    }
+   ]
+  },
+  {
+   "codice": "5749940",
+   "articolo": "4120",
+   "misura": "14x10 mm",
+   "sigla": "CRY L180L",
+   "colore": "Crystal L180L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4120 140X100 CRY L180L G2",
+   "qta": 144,
+   "costoUltimo": 1.2,
+   "costoMedio": 1.2,
+   "costoMin": 1.2,
+   "costoMax": 1.2,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 144,
+     "costo": 1.2
+    }
+   ]
+  },
+  {
+   "codice": "5749941",
+   "articolo": "4120",
+   "misura": "14x10 mm",
+   "sigla": "CRY L181L",
+   "colore": "Crystal L181L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4120 140X100 CRY L181L G2",
+   "qta": 144,
+   "costoUltimo": 1.19,
+   "costoMedio": 1.19,
+   "costoMin": 1.19,
+   "costoMax": 1.19,
+   "acquisti": [
+    {
+     "fattura": "402079311",
+     "data": "2026-03-18",
+     "qta": 144,
+     "costo": 1.19
+    }
+   ]
+  },
+  {
+   "codice": "5749942",
+   "articolo": "4120",
+   "misura": "14x10 mm",
+   "sigla": "CRY L182L",
+   "colore": "Crystal L182L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4120 140X100 CRY L182L G2",
+   "qta": 144,
+   "costoUltimo": 1.19,
+   "costoMedio": 1.19,
+   "costoMin": 1.19,
+   "costoMax": 1.19,
+   "acquisti": [
+    {
+     "fattura": "402076968",
+     "data": "2026-02-25",
+     "qta": 144,
+     "costo": 1.19
+    }
+   ]
+  },
+  {
+   "codice": "38637",
+   "articolo": "4120",
+   "misura": "14x10 mm",
+   "sigla": "LCTO",
+   "colore": "Light Colorado Topaz",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4120 140X100 LCTO F G2",
+   "qta": 288,
+   "costoUltimo": 1.19,
+   "costoMedio": 1.19,
+   "costoMin": 1.19,
+   "costoMax": 1.19,
+   "acquisti": [
+    {
+     "fattura": "402077331",
+     "data": "2026-02-28",
+     "qta": 144,
+     "costo": 1.19
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 1.19
+    }
+   ]
+  },
+  {
+   "codice": "5744698",
+   "articolo": "4120",
+   "misura": "14x10 mm",
+   "sigla": "RC09",
+   "colore": "RC09",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 4120 140X100 RC09 F G2",
+   "qta": 144,
+   "costoUltimo": 1.2,
+   "costoMedio": 1.2,
+   "costoMin": 1.2,
+   "costoMax": 1.2,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 144,
+     "costo": 1.2
+    }
+   ]
+  },
+  {
+   "codice": "5749943",
+   "articolo": "4120",
+   "misura": "18x13 mm",
+   "sigla": "CRY L180L",
+   "colore": "Crystal L180L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4120 180X130 CRY L180L G2",
+   "qta": 48,
+   "costoUltimo": 1.99,
+   "costoMedio": 1.99,
+   "costoMin": 1.99,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 48,
+     "costo": 1.99
+    }
+   ]
+  },
+  {
+   "codice": "5749944",
+   "articolo": "4120",
+   "misura": "18x13 mm",
+   "sigla": "CRY L181L",
+   "colore": "Crystal L181L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4120 180X130 CRY L181L G2",
+   "qta": 48,
+   "costoUltimo": 1.99,
+   "costoMedio": 1.99,
+   "costoMin": 1.99,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 48,
+     "costo": 1.99
+    }
+   ]
+  },
+  {
+   "codice": "5749945",
+   "articolo": "4120",
+   "misura": "18x13 mm",
+   "sigla": "CRY L182L",
+   "colore": "Crystal L182L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4120 180X130 CRY L182L G2",
+   "qta": 48,
+   "costoUltimo": 1.99,
+   "costoMedio": 1.99,
+   "costoMin": 1.99,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 48,
+     "costo": 1.99
+    }
+   ]
+  },
+  {
+   "codice": "59537",
+   "articolo": "4120",
+   "misura": "18x13 mm",
+   "sigla": "LCTO",
+   "colore": "Light Colorado Topaz",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4120 180X130 LCTO F G2",
+   "qta": 96,
+   "costoUltimo": 1.98,
+   "costoMedio": 1.98,
+   "costoMin": 1.98,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 48,
+     "costo": 1.99
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 48,
+     "costo": 1.98
+    }
+   ]
+  },
+  {
+   "codice": "5744704",
+   "articolo": "4120",
+   "misura": "18x13 mm",
+   "sigla": "RC09",
+   "colore": "RC09",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 4120 180X130 RC09 F G2",
+   "qta": 48,
+   "costoUltimo": 1.99,
+   "costoMedio": 1.99,
+   "costoMin": 1.99,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 48,
+     "costo": 1.99
+    }
+   ]
+  },
+  {
+   "codice": "5749946",
+   "articolo": "4127",
+   "misura": "30x22 mm",
+   "sigla": "CRY L180L",
+   "colore": "Crystal L180L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4127 300X220 CRY L180L G2",
+   "qta": 24,
+   "costoUltimo": 4.39,
+   "costoMedio": 4.39,
+   "costoMin": 4.39,
+   "costoMax": 4.39,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 24,
+     "costo": 4.39
+    }
+   ]
+  },
+  {
+   "codice": "5749947",
+   "articolo": "4127",
+   "misura": "30x22 mm",
+   "sigla": "CRY L181L",
+   "colore": "Crystal L181L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4127 300X220 CRY L181L G2",
+   "qta": 24,
+   "costoUltimo": 4.39,
+   "costoMedio": 4.39,
+   "costoMin": 4.39,
+   "costoMax": 4.39,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 24,
+     "costo": 4.39
+    }
+   ]
+  },
+  {
+   "codice": "5749948",
+   "articolo": "4127",
+   "misura": "30x22 mm",
+   "sigla": "CRY L182L",
+   "colore": "Crystal L182L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4127 300X220 CRY L182L G2",
+   "qta": 24,
+   "costoUltimo": 4.39,
+   "costoMedio": 4.39,
+   "costoMin": 4.39,
+   "costoMax": 4.39,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 24,
+     "costo": 4.39
+    }
+   ]
+  },
+  {
+   "codice": "295760",
+   "articolo": "4127",
+   "misura": "30x22 mm",
+   "sigla": "LCTO",
+   "colore": "Light Colorado Topaz",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4127 300X220 LCTO F G2",
+   "qta": 48,
+   "costoUltimo": 4.38,
+   "costoMedio": 4.38,
+   "costoMin": 4.38,
+   "costoMax": 4.38,
+   "acquisti": [
+    {
+     "fattura": "402086580",
+     "data": "2026-05-14",
+     "qta": 24,
+     "costo": 4.38
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 24,
+     "costo": 4.38
+    }
+   ]
+  },
+  {
+   "codice": "5749953",
+   "articolo": "4320",
+   "misura": "14x10 mm",
+   "sigla": "CRY L181L",
+   "colore": "Crystal L181L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4320 140X100 CRY L181L G2",
+   "qta": 288,
+   "costoUltimo": 1.2,
+   "costoMedio": 1.2,
+   "costoMin": 1.2,
+   "costoMax": 1.2,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 144,
+     "costo": 1.2
+    },
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 144,
+     "costo": 1.2
+    }
+   ]
+  },
+  {
+   "codice": "5749952",
+   "articolo": "4320",
+   "misura": "14x10 mm",
+   "sigla": "CRY L182L",
+   "colore": "Crystal L182L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4320 140X100 CRY L182L G2",
+   "qta": 144,
+   "costoUltimo": 1.2,
+   "costoMedio": 1.2,
+   "costoMin": 1.2,
+   "costoMax": 1.2,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 144,
+     "costo": 1.2
+    }
+   ]
+  },
+  {
+   "codice": "5744699",
+   "articolo": "4320",
+   "misura": "14x10 mm",
+   "sigla": "RC09",
+   "colore": "RC09",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 4320 140X100 RC09 F G2",
+   "qta": 144,
+   "costoUltimo": 1.2,
+   "costoMedio": 1.2,
+   "costoMin": 1.2,
+   "costoMax": 1.2,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 144,
+     "costo": 1.2
+    }
+   ]
+  },
+  {
+   "codice": "620794",
+   "articolo": "4320",
+   "misura": "14x10 mm",
+   "sigla": "TANZ",
+   "colore": "Tanzanite",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4320 140X100 TANZ F G2",
+   "qta": 144,
+   "costoUltimo": 1.19,
+   "costoMedio": 1.19,
+   "costoMin": 1.19,
+   "costoMax": 1.19,
+   "acquisti": [
+    {
+     "fattura": "402078864",
+     "data": "2026-03-13",
+     "qta": 144,
+     "costo": 1.19
+    }
+   ]
+  },
+  {
+   "codice": "5749955",
+   "articolo": "4320",
+   "misura": "18x13 mm",
+   "sigla": "CRY L180L",
+   "colore": "Crystal L180L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4320 180X130 CRY L180L G2",
+   "qta": 48,
+   "costoUltimo": 1.97,
+   "costoMedio": 1.97,
+   "costoMin": 1.97,
+   "costoMax": 1.97,
+   "acquisti": [
+    {
+     "fattura": "402092779",
+     "data": "2026-07-09",
+     "qta": 48,
+     "costo": 1.97
+    }
+   ]
+  },
+  {
+   "codice": "5749956",
+   "articolo": "4320",
+   "misura": "18x13 mm",
+   "sigla": "CRY L181L",
+   "colore": "Crystal L181L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4320 180X130 CRY L181L G2",
+   "qta": 48,
+   "costoUltimo": 1.99,
+   "costoMedio": 1.99,
+   "costoMin": 1.99,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 48,
+     "costo": 1.99
+    }
+   ]
+  },
+  {
+   "codice": "5749957",
+   "articolo": "4320",
+   "misura": "18x13 mm",
+   "sigla": "CRY L182L",
+   "colore": "Crystal L182L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4320 180X130 CRY L182L G2",
+   "qta": 48,
+   "costoUltimo": 1.99,
+   "costoMedio": 1.99,
+   "costoMin": 1.99,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 48,
+     "costo": 1.99
+    }
+   ]
+  },
+  {
+   "codice": "5745483",
+   "articolo": "4320",
+   "misura": "18x13 mm",
+   "sigla": "DKOR",
+   "colore": "DKOR",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 4320 180X130 DKOR F G2",
+   "qta": 48,
+   "costoUltimo": 1.96,
+   "costoMedio": 1.96,
+   "costoMin": 1.96,
+   "costoMax": 1.96,
+   "acquisti": [
+    {
+     "fattura": "402062110",
+     "data": "2025-11-12",
+     "qta": 48,
+     "costo": 1.96
+    }
+   ]
+  },
+  {
+   "codice": "5744705",
+   "articolo": "4320",
+   "misura": "18x13 mm",
+   "sigla": "RC09",
+   "colore": "RC09",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 4320 180X130 RC09 F G2",
+   "qta": 192,
+   "costoUltimo": 1.98,
+   "costoMedio": 1.98,
+   "costoMin": 1.98,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 48,
+     "costo": 1.99
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 1.98
+    }
+   ]
+  },
+  {
+   "codice": "620795",
+   "articolo": "4320",
+   "misura": "18x13 mm",
+   "sigla": "TANZ",
+   "colore": "Tanzanite",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4320 180X130 TANZ F G2",
+   "qta": 48,
+   "costoUltimo": 1.99,
+   "costoMedio": 1.99,
+   "costoMin": 1.99,
+   "costoMax": 1.99,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 48,
+     "costo": 1.99
+    }
+   ]
+  },
+  {
+   "codice": "5749958",
+   "articolo": "4327",
+   "misura": "30x20 mm",
+   "sigla": "CRY L180L",
+   "colore": "Crystal L180L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4327 300X200 CRY L180L G2",
+   "qta": 24,
+   "costoUltimo": 4.16,
+   "costoMedio": 4.16,
+   "costoMin": 4.16,
+   "costoMax": 4.16,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 24,
+     "costo": 4.16
+    }
+   ]
+  },
+  {
+   "codice": "5749959",
+   "articolo": "4327",
+   "misura": "30x20 mm",
+   "sigla": "CRY L181L",
+   "colore": "Crystal L181L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4327 300X200 CRY L181L G2",
+   "qta": 24,
+   "costoUltimo": 4.16,
+   "costoMedio": 4.16,
+   "costoMin": 4.16,
+   "costoMax": 4.16,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 24,
+     "costo": 4.16
+    }
+   ]
+  },
+  {
+   "codice": "5749960",
+   "articolo": "4327",
+   "misura": "30x20 mm",
+   "sigla": "CRY L182L",
+   "colore": "Crystal L182L",
+   "foiled": false,
+   "verifica": true,
+   "descrOriginale": "A 4327 300X200 CRY L182L G2",
+   "qta": 24,
+   "costoUltimo": 4.16,
+   "costoMedio": 4.16,
+   "costoMin": 4.16,
+   "costoMax": 4.16,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 24,
+     "costo": 4.16
+    }
+   ]
+  },
+  {
+   "codice": "5720286",
+   "articolo": "4327",
+   "misura": "30x20 mm",
+   "sigla": "DKOR",
+   "colore": "DKOR",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 4327 300X200 DKOR F G2",
+   "qta": 24,
+   "costoUltimo": 4.07,
+   "costoMedio": 4.07,
+   "costoMin": 4.07,
+   "costoMax": 4.07,
+   "acquisti": [
+    {
+     "fattura": "402062110",
+     "data": "2025-11-12",
+     "qta": 24,
+     "costo": 4.07
+    }
+   ]
+  },
+  {
+   "codice": "631647",
+   "articolo": "4327",
+   "misura": "30x20 mm",
+   "sigla": "TANZ",
+   "colore": "Tanzanite",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4327 300X200 TANZ F G2",
+   "qta": 24,
+   "costoUltimo": 4.16,
+   "costoMedio": 4.16,
+   "costoMin": 4.16,
+   "costoMax": 4.16,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 24,
+     "costo": 4.16
+    }
+   ]
+  },
+  {
+   "codice": "5533169",
+   "articolo": "4460",
+   "misura": "MM 10",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 100 AMET F G2",
+   "qta": 144,
+   "costoUltimo": 1.1,
+   "costoMedio": 1.09,
+   "costoMin": 1.07,
+   "costoMax": 1.1,
+   "acquisti": [
+    {
+     "fattura": "402066209",
+     "data": "2025-12-11",
+     "qta": 48,
+     "costo": 1.07
+    },
+    {
+     "fattura": "402082348",
+     "data": "2026-04-10",
+     "qta": 96,
+     "costo": 1.1
+    }
+   ]
+  },
+  {
+   "codice": "5526290",
+   "articolo": "4460",
+   "misura": "MM 10",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 100 AQUA F G2",
+   "qta": 384,
+   "costoUltimo": 1.07,
+   "costoMedio": 1.05,
+   "costoMin": 1.04,
+   "costoMax": 1.07,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 144,
+     "costo": 1.04
+    },
+    {
+     "fattura": "402066023",
+     "data": "2025-12-09",
+     "qta": 96,
+     "costo": 1.04
+    },
+    {
+     "fattura": "402066209",
+     "data": "2025-12-11",
+     "qta": 144,
+     "costo": 1.07
+    }
+   ]
+  },
+  {
+   "codice": "5659991",
+   "articolo": "4460",
+   "misura": "MM 10",
+   "sigla": "CRY L163I",
+   "colore": "Crystal Sky Ignite",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 100 CRY L163I G2",
+   "qta": 48,
+   "costoUltimo": 1.04,
+   "costoMedio": 1.04,
+   "costoMin": 1.04,
+   "costoMax": 1.04,
+   "acquisti": [
+    {
+     "fattura": "402058191",
+     "data": "2025-10-09",
+     "qta": 48,
+     "costo": 1.04
+    }
+   ]
+  },
+  {
+   "codice": "5533171",
+   "articolo": "4460",
+   "misura": "MM 10",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 100 EMER F G2",
+   "qta": 144,
+   "costoUltimo": 1.07,
+   "costoMedio": 1.07,
+   "costoMin": 1.07,
+   "costoMax": 1.08,
+   "acquisti": [
+    {
+     "fattura": "402062110",
+     "data": "2025-11-12",
+     "qta": 48,
+     "costo": 1.08
+    },
+    {
+     "fattura": "402084744",
+     "data": "2026-04-30",
+     "qta": 96,
+     "costo": 1.07
+    }
+   ]
+  },
+  {
+   "codice": "5533173",
+   "articolo": "4460",
+   "misura": "MM 14",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 140 AMET F G2",
+   "qta": 72,
+   "costoUltimo": 2.05,
+   "costoMedio": 2.03,
+   "costoMin": 1.99,
+   "costoMax": 2.05,
+   "acquisti": [
+    {
+     "fattura": "402066209",
+     "data": "2025-12-11",
+     "qta": 24,
+     "costo": 1.99
+    },
+    {
+     "fattura": "402082348",
+     "data": "2026-04-10",
+     "qta": 48,
+     "costo": 2.05
+    }
+   ]
+  },
+  {
+   "codice": "5533174",
+   "articolo": "4460",
+   "misura": "MM 14",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 140 AQUA F G2",
+   "qta": 312,
+   "costoUltimo": 2.02,
+   "costoMedio": 1.96,
+   "costoMin": 1.92,
+   "costoMax": 2.02,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 144,
+     "costo": 1.97
+    },
+    {
+     "fattura": "402064018",
+     "data": "2025-11-26",
+     "qta": 48,
+     "costo": 1.96
+    },
+    {
+     "fattura": "402089137",
+     "data": "2026-06-12",
+     "qta": 24,
+     "costo": 2.02
+    },
+    {
+     "fattura": "402089136",
+     "data": "2026-06-12",
+     "qta": 72,
+     "costo": 1.92
+    },
+    {
+     "fattura": "402092857",
+     "data": "2026-07-10",
+     "qta": 24,
+     "costo": 2.02
+    }
+   ]
+  },
+  {
+   "codice": "5526302",
+   "articolo": "4460",
+   "misura": "MM 14",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 140 EMER F G2",
+   "qta": 96,
+   "costoUltimo": 2.05,
+   "costoMedio": 2.03,
+   "costoMin": 2.01,
+   "costoMax": 2.05,
+   "acquisti": [
+    {
+     "fattura": "402062110",
+     "data": "2025-11-12",
+     "qta": 48,
+     "costo": 2.01
+    },
+    {
+     "fattura": "402082348",
+     "data": "2026-04-10",
+     "qta": 48,
+     "costo": 2.05
+    }
+   ]
+  },
+  {
+   "codice": "5533178",
+   "articolo": "4460",
+   "misura": "MM 18",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 180 AMET F G2",
+   "qta": 30,
+   "costoUltimo": 3.75,
+   "costoMedio": 3.75,
+   "costoMin": 3.75,
+   "costoMax": 3.75,
+   "acquisti": [
+    {
+     "fattura": "402082348",
+     "data": "2026-04-10",
+     "qta": 30,
+     "costo": 3.75
+    }
+   ]
+  },
+  {
+   "codice": "5533179",
+   "articolo": "4460",
+   "misura": "MM 18",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 180 AQUA F G2",
+   "qta": 165,
+   "costoUltimo": 3.64,
+   "costoMedio": 3.62,
+   "costoMin": 3.61,
+   "costoMax": 3.64,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 75,
+     "costo": 3.61
+    },
+    {
+     "fattura": "402062191",
+     "data": "2025-11-13",
+     "qta": 45,
+     "costo": 3.61
+    },
+    {
+     "fattura": "402066209",
+     "data": "2025-12-11",
+     "qta": 45,
+     "costo": 3.64
+    }
+   ]
+  },
+  {
+   "codice": "5533180",
+   "articolo": "4460",
+   "misura": "MM 18",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4460 MM 180 EMER F G2",
+   "qta": 60,
+   "costoUltimo": 3.75,
+   "costoMedio": 3.7,
+   "costoMin": 3.65,
+   "costoMax": 3.75,
+   "acquisti": [
+    {
+     "fattura": "402062110",
+     "data": "2025-11-12",
+     "qta": 30,
+     "costo": 3.65
+    },
+    {
+     "fattura": "402082348",
+     "data": "2026-04-10",
+     "qta": 30,
+     "costo": 3.75
+    }
+   ]
+  },
+  {
+   "codice": "1165698",
+   "articolo": "4470",
+   "misura": "MM 10",
+   "sigla": "LTQU",
+   "colore": "Light Turquoise",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4470 MM 100 LTQU F G2",
+   "qta": 144,
+   "costoUltimo": 1.07,
+   "costoMedio": 1.07,
+   "costoMin": 1.07,
+   "costoMax": 1.07,
+   "acquisti": [
+    {
+     "fattura": "402076968",
+     "data": "2026-02-25",
+     "qta": 144,
+     "costo": 1.07
+    }
+   ]
+  },
+  {
+   "codice": "5744686",
+   "articolo": "4470",
+   "misura": "MM 10",
+   "sigla": "RC09",
+   "colore": "RC09",
+   "foiled": true,
+   "verifica": true,
+   "descrOriginale": "A 4470 MM 100 RC09 F G2",
+   "qta": 144,
+   "costoUltimo": 1.08,
+   "costoMedio": 1.08,
+   "costoMin": 1.08,
+   "costoMax": 1.08,
+   "acquisti": [
+    {
+     "fattura": "402076245",
+     "data": "2026-02-19",
+     "qta": 144,
+     "costo": 1.08
+    }
+   ]
+  },
+  {
+   "codice": "259550",
+   "articolo": "4470",
+   "misura": "MM 10",
+   "sigla": "TANZ",
+   "colore": "Tanzanite",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4470 MM 100 TANZ F G2",
+   "qta": 144,
+   "costoUltimo": 1.07,
+   "costoMedio": 1.07,
+   "costoMin": 1.07,
+   "costoMax": 1.07,
+   "acquisti": [
+    {
+     "fattura": "402076968",
+     "data": "2026-02-25",
+     "qta": 144,
+     "costo": 1.07
+    }
+   ]
+  },
+  {
+   "codice": "1187591",
+   "articolo": "4470",
+   "misura": "MM 12",
+   "sigla": "LTQU",
+   "colore": "Light Turquoise",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4470 MM 120 LTQU F G2",
+   "qta": 72,
+   "costoUltimo": 1.5,
+   "costoMedio": 1.5,
+   "costoMin": 1.5,
+   "costoMax": 1.5,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 72,
+     "costo": 1.5
+    }
+   ]
+  },
+  {
+   "codice": "259557",
+   "articolo": "4470",
+   "misura": "MM 12",
+   "sigla": "TANZ",
+   "colore": "Tanzanite",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4470 MM 120 TANZ F G2",
+   "qta": 72,
+   "costoUltimo": 1.5,
+   "costoMedio": 1.5,
+   "costoMin": 1.5,
+   "costoMax": 1.5,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 72,
+     "costo": 1.5
+    }
+   ]
+  },
+  {
+   "codice": "26241",
+   "articolo": "4610",
+   "misura": "14x10 mm",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4610 140X100 AMET F G2",
+   "qta": 144,
+   "costoUltimo": 1.19,
+   "costoMedio": 1.19,
+   "costoMin": 1.19,
+   "costoMax": 1.19,
+   "acquisti": [
+    {
+     "fattura": "402080479",
+     "data": "2026-03-25",
+     "qta": 144,
+     "costo": 1.19
+    }
+   ]
+  },
+  {
+   "codice": "29679",
+   "articolo": "4610",
+   "misura": "14x10 mm",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4610 140X100 AQUA F G2",
+   "qta": 576,
+   "costoUltimo": 1.13,
+   "costoMedio": 1.15,
+   "costoMin": 1.13,
+   "costoMax": 1.2,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 144,
+     "costo": 1.2
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 432,
+     "costo": 1.13
+    }
+   ]
+  },
+  {
+   "codice": "25677",
+   "articolo": "4610",
+   "misura": "14x10 mm",
+   "sigla": "CRY",
+   "colore": "Crystal",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4610 140X100 CRY F G2",
+   "qta": 144,
+   "costoUltimo": 1.09,
+   "costoMedio": 1.09,
+   "costoMin": 1.09,
+   "costoMax": 1.09,
+   "acquisti": [
+    {
+     "fattura": "402078562",
+     "data": "2026-03-11",
+     "qta": 144,
+     "costo": 1.09
+    }
+   ]
+  },
+  {
+   "codice": "30381",
+   "articolo": "4610",
+   "misura": "14x10 mm",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4610 140X100 EMER F G2",
+   "qta": 144,
+   "costoUltimo": 1.22,
+   "costoMedio": 1.22,
+   "costoMin": 1.22,
+   "costoMax": 1.22,
+   "acquisti": [
+    {
+     "fattura": "402078562",
+     "data": "2026-03-11",
+     "qta": 144,
+     "costo": 1.22
+    }
+   ]
+  },
+  {
+   "codice": "30710",
+   "articolo": "4610",
+   "misura": "18x13 mm",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4610 180X130 AMET F G2",
+   "qta": 48,
+   "costoUltimo": 1.97,
+   "costoMedio": 1.97,
+   "costoMin": 1.97,
+   "costoMax": 1.97,
+   "acquisti": [
+    {
+     "fattura": "402085705",
+     "data": "2026-05-07",
+     "qta": 48,
+     "costo": 1.97
+    }
+   ]
+  },
+  {
+   "codice": "29487",
+   "articolo": "4610",
+   "misura": "18x13 mm",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4610 180X130 AQUA F G2",
+   "qta": 480,
+   "costoUltimo": 2.01,
+   "costoMedio": 1.98,
+   "costoMin": 1.92,
+   "costoMax": 2.01,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 48,
+     "costo": 1.99
+    },
+    {
+     "fattura": "402083593",
+     "data": "2026-04-20",
+     "qta": 96,
+     "costo": 1.98
+    },
+    {
+     "fattura": "402096610",
+     "data": "2026-08-05",
+     "qta": 144,
+     "costo": 1.92
+    },
+    {
+     "fattura": "402096610",
+     "data": "2026-08-05",
+     "qta": 192,
+     "costo": 2.01
+    }
+   ]
+  },
+  {
+   "codice": "30258",
+   "articolo": "4610",
+   "misura": "18x13 mm",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4610 180X130 EMER F G2",
+   "qta": 48,
+   "costoUltimo": 2.01,
+   "costoMedio": 2.01,
+   "costoMin": 2.01,
+   "costoMax": 2.01,
+   "acquisti": [
+    {
+     "fattura": "402078562",
+     "data": "2026-03-11",
+     "qta": 48,
+     "costo": 2.01
+    }
+   ]
+  },
+  {
+   "codice": "119789",
+   "articolo": "4627",
+   "misura": "27x18.5 mm",
+   "sigla": "AMET",
+   "colore": "Amethyst",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4627 270X185 AMET F G2",
+   "qta": 24,
+   "costoUltimo": 3.77,
+   "costoMedio": 3.77,
+   "costoMin": 3.77,
+   "costoMax": 3.77,
+   "acquisti": [
+    {
+     "fattura": "402078562",
+     "data": "2026-03-11",
+     "qta": 24,
+     "costo": 3.77
+    }
+   ]
+  },
+  {
+   "codice": "988536",
+   "articolo": "4627",
+   "misura": "27x18.5 mm",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4627 270X185 AQUA F G2",
+   "qta": 48,
+   "costoUltimo": 3.55,
+   "costoMedio": 3.66,
+   "costoMin": 3.55,
+   "costoMax": 3.76,
+   "acquisti": [
+    {
+     "fattura": "402074875",
+     "data": "2026-02-09",
+     "qta": 24,
+     "costo": 3.76
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 24,
+     "costo": 3.55
+    }
+   ]
+  },
+  {
+   "codice": "109246",
+   "articolo": "4627",
+   "misura": "27x18.5 mm",
+   "sigla": "CRY",
+   "colore": "Crystal",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4627 270X185 CRY F G2",
+   "qta": 24,
+   "costoUltimo": 3.36,
+   "costoMedio": 3.36,
+   "costoMin": 3.36,
+   "costoMax": 3.36,
+   "acquisti": [
+    {
+     "fattura": "402078562",
+     "data": "2026-03-11",
+     "qta": 24,
+     "costo": 3.36
+    }
+   ]
+  },
+  {
+   "codice": "119794",
+   "articolo": "4627",
+   "misura": "27x18.5 mm",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": true,
+   "verifica": false,
+   "descrOriginale": "A 4627 270X185 EMER F G2",
+   "qta": 24,
+   "costoUltimo": 3.77,
+   "costoMedio": 3.77,
+   "costoMin": 3.77,
+   "costoMax": 3.77,
+   "acquisti": [
+    {
+     "fattura": "402078562",
+     "data": "2026-03-11",
+     "qta": 24,
+     "costo": 3.77
+    }
+   ]
+  },
+  {
+   "codice": "919577",
+   "articolo": "6106",
+   "misura": "MM 16",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 160 AQUA G2",
+   "qta": 432,
+   "costoUltimo": 0.81,
+   "costoMedio": 0.82,
+   "costoMin": 0.81,
+   "costoMax": 0.83,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 144,
+     "costo": 0.83
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 144,
+     "costo": 0.81
+    },
+    {
+     "fattura": "402094584",
+     "data": "2026-07-22",
+     "qta": 144,
+     "costo": 0.81
+    }
+   ]
+  },
+  {
+   "codice": "901522",
+   "articolo": "6106",
+   "misura": "MM 16",
+   "sigla": "CRY AB",
+   "colore": "Crystal AB",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 160 CRY AB G2",
+   "qta": 288,
+   "costoUltimo": 0.87,
+   "costoMedio": 0.86,
+   "costoMin": 0.85,
+   "costoMax": 0.87,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 144,
+     "costo": 0.85
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.87
+    }
+   ]
+  },
+  {
+   "codice": "5370877",
+   "articolo": "6106",
+   "misura": "MM 16",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 160 EMER G2",
+   "qta": 576,
+   "costoUltimo": 0.85,
+   "costoMedio": 0.83,
+   "costoMin": 0.81,
+   "costoMax": 0.85,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 144,
+     "costo": 0.83
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 288,
+     "costo": 0.81
+    },
+    {
+     "fattura": "402099619",
+     "data": "2026-09-09",
+     "qta": 144,
+     "costo": 0.85
+    }
+   ]
+  },
+  {
+   "codice": "919578",
+   "articolo": "6106",
+   "misura": "MM 16",
+   "sigla": "LROS",
+   "colore": "Light Rose",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 160 LROS G2",
+   "qta": 144,
+   "costoUltimo": 0.83,
+   "costoMedio": 0.83,
+   "costoMin": 0.83,
+   "costoMax": 0.83,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 144,
+     "costo": 0.83
+    }
+   ]
+  },
+  {
+   "codice": "5352183",
+   "articolo": "6106",
+   "misura": "MM 16",
+   "sigla": "SCAR",
+   "colore": "Scarlet",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 160 SCAR G2",
+   "qta": 288,
+   "costoUltimo": 0.86,
+   "costoMedio": 0.84,
+   "costoMin": 0.83,
+   "costoMax": 0.86,
+   "acquisti": [
+    {
+     "fattura": "402060009",
+     "data": "2025-10-24",
+     "qta": 144,
+     "costo": 0.83
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 0.86
+    }
+   ]
+  },
+  {
+   "codice": "919584",
+   "articolo": "6106",
+   "misura": "MM 22",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 220 AQUA G2",
+   "qta": 192,
+   "costoUltimo": 1.42,
+   "costoMedio": 1.42,
+   "costoMin": 1.42,
+   "costoMax": 1.42,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 192,
+     "costo": 1.42
+    }
+   ]
+  },
+  {
+   "codice": "905033",
+   "articolo": "6106",
+   "misura": "MM 22",
+   "sigla": "CRY AB",
+   "colore": "Crystal AB",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 220 CRY AB G2",
+   "qta": 192,
+   "costoUltimo": 1.48,
+   "costoMedio": 1.46,
+   "costoMin": 1.44,
+   "costoMax": 1.48,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 96,
+     "costo": 1.44
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 96,
+     "costo": 1.48
+    }
+   ]
+  },
+  {
+   "codice": "1125367",
+   "articolo": "6106",
+   "misura": "MM 22",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 220 EMER G2",
+   "qta": 192,
+   "costoUltimo": 1.42,
+   "costoMedio": 1.42,
+   "costoMin": 1.42,
+   "costoMax": 1.42,
+   "acquisti": [
+    {
+     "fattura": "402063798",
+     "data": "2025-11-24",
+     "qta": 192,
+     "costo": 1.42
+    }
+   ]
+  },
+  {
+   "codice": "887930",
+   "articolo": "6106",
+   "misura": "MM 22",
+   "sigla": "LROS",
+   "colore": "Light Rose",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 220 LROS G2",
+   "qta": 192,
+   "costoUltimo": 1.42,
+   "costoMedio": 1.42,
+   "costoMin": 1.42,
+   "costoMax": 1.42,
+   "acquisti": [
+    {
+     "fattura": "402063798",
+     "data": "2025-11-24",
+     "qta": 192,
+     "costo": 1.42
+    }
+   ]
+  },
+  {
+   "codice": "5415964",
+   "articolo": "6106",
+   "misura": "MM 22",
+   "sigla": "SCAR",
+   "colore": "Scarlet",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 220 SCAR G2",
+   "qta": 288,
+   "costoUltimo": 1.46,
+   "costoMedio": 1.43,
+   "costoMin": 1.42,
+   "costoMax": 1.46,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 96,
+     "costo": 1.42
+    },
+    {
+     "fattura": "402060009",
+     "data": "2025-10-24",
+     "qta": 96,
+     "costo": 1.42
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 96,
+     "costo": 1.46
+    }
+   ]
+  },
+  {
+   "codice": "5058971",
+   "articolo": "6106",
+   "misura": "MM 28",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 280 AQUA G2",
+   "qta": 72,
+   "costoUltimo": 2.4,
+   "costoMedio": 2.4,
+   "costoMin": 2.4,
+   "costoMax": 2.4,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 72,
+     "costo": 2.4
+    }
+   ]
+  },
+  {
+   "codice": "907370",
+   "articolo": "6106",
+   "misura": "MM 28",
+   "sigla": "CRY AB",
+   "colore": "Crystal AB",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 280 CRY AB G2",
+   "qta": 36,
+   "costoUltimo": 2.43,
+   "costoMedio": 2.43,
+   "costoMin": 2.43,
+   "costoMax": 2.43,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 36,
+     "costo": 2.43
+    }
+   ]
+  },
+  {
+   "codice": "919589",
+   "articolo": "6106",
+   "misura": "MM 28",
+   "sigla": "EMER",
+   "colore": "Emerald",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 280 EMER G2",
+   "qta": 180,
+   "costoUltimo": 2.47,
+   "costoMedio": 2.39,
+   "costoMin": 2.34,
+   "costoMax": 2.47,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 72,
+     "costo": 2.4
+    },
+    {
+     "fattura": "402088908",
+     "data": "2026-06-09",
+     "qta": 72,
+     "costo": 2.34
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 36,
+     "costo": 2.47
+    }
+   ]
+  },
+  {
+   "codice": "5560115",
+   "articolo": "6106",
+   "misura": "MM 28",
+   "sigla": "LROS",
+   "colore": "Light Rose",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 280 LROS G2",
+   "qta": 72,
+   "costoUltimo": 2.39,
+   "costoMedio": 2.4,
+   "costoMin": 2.39,
+   "costoMax": 2.4,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 36,
+     "costo": 2.4
+    },
+    {
+     "fattura": "402060009",
+     "data": "2025-10-24",
+     "qta": 36,
+     "costo": 2.39
+    }
+   ]
+  },
+  {
+   "codice": "5444294",
+   "articolo": "6106",
+   "misura": "MM 28",
+   "sigla": "SCAR",
+   "colore": "Scarlet",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6106 MM 280 SCAR G2",
+   "qta": 108,
+   "costoUltimo": 2.47,
+   "costoMedio": 2.42,
+   "costoMin": 2.4,
+   "costoMax": 2.47,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 72,
+     "costo": 2.4
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 36,
+     "costo": 2.47
+    }
+   ]
+  },
+  {
+   "codice": "5554312",
+   "articolo": "6433",
+   "misura": "MM 16",
+   "sigla": "AQUA",
+   "colore": "Aquamarine Shimmer",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6433 MM 160 AQUA SHIM G2",
+   "qta": 144,
+   "costoUltimo": 1.17,
+   "costoMedio": 1.16,
+   "costoMin": 1.15,
+   "costoMax": 1.17,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 72,
+     "costo": 1.15
+    },
+    {
+     "fattura": "402066209",
+     "data": "2025-12-11",
+     "qta": 72,
+     "costo": 1.17
+    }
+   ]
+  },
+  {
+   "codice": "5524751",
+   "articolo": "6433",
+   "misura": "MM 16",
+   "sigla": "CRY AB",
+   "colore": "Crystal AB",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6433 MM 160 CRY AB G2",
+   "qta": 72,
+   "costoUltimo": 1.13,
+   "costoMedio": 1.13,
+   "costoMin": 1.13,
+   "costoMax": 1.13,
+   "acquisti": [
+    {
+     "fattura": "402066210",
+     "data": "2025-12-11",
+     "qta": 72,
+     "costo": 1.13
+    }
+   ]
+  },
+  {
+   "codice": "5524752",
+   "articolo": "6433",
+   "misura": "MM 16",
+   "sigla": "CRY BB P",
+   "colore": "Crystal Bermuda Blue P",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6433 MM 160 CRY BB P G2",
+   "qta": 144,
+   "costoUltimo": 1.92,
+   "costoMedio": 1.92,
+   "costoMin": 1.92,
+   "costoMax": 1.92,
+   "acquisti": [
+    {
+     "fattura": "402061695",
+     "data": "2025-11-10",
+     "qta": 72,
+     "costo": 1.92
+    },
+    {
+     "fattura": "402066210",
+     "data": "2025-12-11",
+     "qta": 72,
+     "costo": 1.92
+    }
+   ]
+  },
+  {
+   "codice": "5578860",
+   "articolo": "6433",
+   "misura": "MM 16",
+   "sigla": "EMER",
+   "colore": "Emerald Shimmer",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6433 MM 160 EMER SHIM G7",
+   "qta": 72,
+   "costoUltimo": 1.15,
+   "costoMedio": 1.15,
+   "costoMin": 1.15,
+   "costoMax": 1.15,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 72,
+     "costo": 1.15
+    }
+   ]
+  },
+  {
+   "codice": "5578539",
+   "articolo": "6433",
+   "misura": "MM 16",
+   "sigla": "LROS",
+   "colore": "Light Rose Shimmer",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6433 MM 160 LROS SHIM G7",
+   "qta": 144,
+   "costoUltimo": 1.17,
+   "costoMedio": 1.16,
+   "costoMin": 1.15,
+   "costoMax": 1.17,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 72,
+     "costo": 1.15
+    },
+    {
+     "fattura": "402066209",
+     "data": "2025-12-11",
+     "qta": 72,
+     "costo": 1.17
+    }
+   ]
+  },
+  {
+   "codice": "944421",
+   "articolo": "6656",
+   "misura": "MM 19",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6656 MM 190 AQUA G2",
+   "qta": 144,
+   "costoUltimo": 1.57,
+   "costoMedio": 1.57,
+   "costoMin": 1.57,
+   "costoMax": 1.57,
+   "acquisti": [
+    {
+     "fattura": "402062819",
+     "data": "2025-11-19",
+     "qta": 96,
+     "costo": 1.57
+    },
+    {
+     "fattura": "402072257",
+     "data": "2026-01-26",
+     "qta": 48,
+     "costo": 1.57
+    }
+   ]
+  },
+  {
+   "codice": "944425",
+   "articolo": "6656",
+   "misura": "MM 19",
+   "sigla": "TANZ",
+   "colore": "Tanzanite",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6656 MM 190 TANZ G2",
+   "qta": 48,
+   "costoUltimo": 1.61,
+   "costoMedio": 1.61,
+   "costoMin": 1.61,
+   "costoMax": 1.61,
+   "acquisti": [
+    {
+     "fattura": "402062110",
+     "data": "2025-11-12",
+     "qta": 48,
+     "costo": 1.61
+    }
+   ]
+  },
+  {
+   "codice": "913156",
+   "articolo": "6656",
+   "misura": "MM 27",
+   "sigla": "AQUA",
+   "colore": "Aquamarine",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6656 MM 270 AQUA G2",
+   "qta": 30,
+   "costoUltimo": 3.07,
+   "costoMedio": 3.07,
+   "costoMin": 3.07,
+   "costoMax": 3.07,
+   "acquisti": [
+    {
+     "fattura": "402062191",
+     "data": "2025-11-13",
+     "qta": 30,
+     "costo": 3.07
+    }
+   ]
+  },
+  {
+   "codice": "944431",
+   "articolo": "6656",
+   "misura": "MM 27",
+   "sigla": "TANZ",
+   "colore": "Tanzanite",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6656 MM 270 TANZ G2",
+   "qta": 30,
+   "costoUltimo": 3.11,
+   "costoMedio": 3.11,
+   "costoMin": 3.11,
+   "costoMax": 3.11,
+   "acquisti": [
+    {
+     "fattura": "402062110",
+     "data": "2025-11-12",
+     "qta": 30,
+     "costo": 3.11
+    }
+   ]
+  },
+  {
+   "codice": "5014190",
+   "articolo": "6673",
+   "misura": "MM 18",
+   "sigla": "LTQU",
+   "colore": "Light Turquoise",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6673 MM 180 LTQU G2",
+   "qta": 624,
+   "costoUltimo": 1.59,
+   "costoMedio": 1.56,
+   "costoMin": 1.54,
+   "costoMax": 1.59,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 192,
+     "costo": 1.55
+    },
+    {
+     "fattura": "402063306",
+     "data": "2025-11-21",
+     "qta": 96,
+     "costo": 1.54
+    },
+    {
+     "fattura": "402066210",
+     "data": "2025-12-11",
+     "qta": 96,
+     "costo": 1.54
+    },
+    {
+     "fattura": "402088909",
+     "data": "2026-06-09",
+     "qta": 96,
+     "costo": 1.59
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 144,
+     "costo": 1.59
+    }
+   ]
+  },
+  {
+   "codice": "5014195",
+   "articolo": "6673",
+   "misura": "MM 28",
+   "sigla": "LTQU",
+   "colore": "Light Turquoise",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6673 MM 280 LTQU G2",
+   "qta": 200,
+   "costoUltimo": 3.79,
+   "costoMedio": 3.79,
+   "costoMin": 3.79,
+   "costoMax": 3.79,
+   "acquisti": [
+    {
+     "fattura": "402060009",
+     "data": "2025-10-24",
+     "qta": 100,
+     "costo": 3.79
+    },
+    {
+     "fattura": "402062191",
+     "data": "2025-11-13",
+     "qta": 60,
+     "costo": 3.79
+    },
+    {
+     "fattura": "402066210",
+     "data": "2025-12-11",
+     "qta": 40,
+     "costo": 3.79
+    }
+   ]
+  },
+  {
+   "codice": "5014202",
+   "articolo": "6673",
+   "misura": "MM 38",
+   "sigla": "LTQU",
+   "colore": "Light Turquoise",
+   "foiled": false,
+   "verifica": false,
+   "descrOriginale": "A 6673 MM 380 LTQU G2",
+   "qta": 102,
+   "costoUltimo": 6.38,
+   "costoMedio": 6.27,
+   "costoMin": 6.2,
+   "costoMax": 6.39,
+   "acquisti": [
+    {
+     "fattura": "402058919",
+     "data": "2025-10-16",
+     "qta": 18,
+     "costo": 6.21
+    },
+    {
+     "fattura": "402060009",
+     "data": "2025-10-24",
+     "qta": 24,
+     "costo": 6.2
+    },
+    {
+     "fattura": "402062110",
+     "data": "2025-11-12",
+     "qta": 24,
+     "costo": 6.24
+    },
+    {
+     "fattura": "402066210",
+     "data": "2025-12-11",
+     "qta": 6,
+     "costo": 6.2
+    },
+    {
+     "fattura": "402098929",
+     "data": "2026-09-03",
+     "qta": 12,
+     "costo": 6.39
+    },
+    {
+     "fattura": "402100640",
+     "data": "2026-09-17",
+     "qta": 18,
+     "costo": 6.38
+    }
+   ]
+  }
+ ]
+}

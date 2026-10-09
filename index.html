@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventario Swarovski</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M16 2 29 12 16 30 3 12Z' fill='%232a78d6'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f6f6f4; --surface:#fcfcfb; --surface-2:#f0efec; --border:#e3e2dd;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#8a8984;
+  --accent:#2a78d6; --accent-soft:#cde2fb; --series:#2a78d6;
+  --grid:#ecebe7; --warn:#b26b00; --warn-soft:#fff1d6; --crit:#c43d3c; --crit-soft:#fde4e3; --ok:#1d7a3e;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#121211; --surface:#1a1a19; --surface-2:#242422; --border:#33332f;
+    --text:#fff; --text-2:#c3c2b7; --muted:#8f8e86;
+    --accent:#3987e5; --accent-soft:#1c3a5e; --series:#3987e5;
+    --grid:#2a2a27; --warn:#e3a33a; --warn-soft:#3a2c12; --crit:#e66767; --crit-soft:#3d1f1f; --ok:#4cc27a;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#121211; --surface:#1a1a19; --surface-2:#242422; --border:#33332f;
+  --text:#fff; --text-2:#c3c2b7; --muted:#8f8e86;
+  --accent:#3987e5; --accent-soft:#1c3a5e; --series:#3987e5;
+  --grid:#2a2a27; --warn:#e3a33a; --warn-soft:#3a2c12; --crit:#e66767; --crit-soft:#3d1f1f; --ok:#4cc27a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 Inter,system-ui,sans-serif}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:20px 24px 8px;max-width:1280px;margin:0 auto}
+h1{font-size:22px;margin:0;font-weight:700;letter-spacing:-.01em}
+.sub{color:var(--text-2);font-size:13px}
+main{max-width:1280px;margin:0 auto;padding:8px 24px 48px}
+.btn{font:inherit;font-size:13px;border:1px solid var(--border);background:var(--surface);color:var(--text);border-radius:8px;padding:7px 12px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:12px 0 16px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+.tile .k{color:var(--text-2);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.tile .v{font-size:28px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
+.tile .h{color:var(--muted);font-size:12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;min-width:0}
+.card h2{font-size:14px;margin:0 0 2px;font-weight:600}
+.card .note{color:var(--muted);font-size:12px;margin-bottom:8px}
+.chart{position:relative;height:280px}
+.wide{grid-column:1/-1}
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:20px 0 10px}
+.filters input,.filters select{font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text)}
+.filters input[type=search]{flex:1;min-width:200px}
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--border);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--grid);white-space:nowrap}
+th{font-size:12px;color:var(--text-2);font-weight:600;cursor:pointer;user-select:none;position:sticky;top:0;background:var(--surface)}
+th.num,td.num{text-align:right}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--surface-2)}
+.code{font-weight:600}
+.descr{color:var(--text-2)}
+.pill{display:inline-block;font-size:11px;padding:1px 7px;border-radius:99px;margin-left:6px;vertical-align:1px}
+.pill.low{background:var(--warn-soft);color:var(--warn)}
+.pill.out{background:var(--crit-soft);color:var(--crit)}
+.pill.ver{background:var(--surface-2);color:var(--muted)}
+.foot{color:var(--muted);font-size:12px;margin-top:10px}
+dialog{border:1px solid var(--border);border-radius:14px;background:var(--surface);color:var(--text);padding:0;width:min(760px,calc(100vw - 32px));max-height:calc(100vh - 32px)}
+dialog::backdrop{background:rgba(0,0,0,.4)}
+.dlg-h{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:16px 18px;border-bottom:1px solid var(--border)}
+.dlg-b{padding:14px 18px;overflow:auto}
+.kv{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+.kv div{background:var(--surface-2);border-radius:8px;padding:8px 10px}
+.kv b{display:block;font-size:18px}
+.kv span{font-size:11px;color:var(--text-2)}
+.tabs{max-width:1280px;margin:0 auto;padding:4px 24px 0;display:flex;gap:4px;border-bottom:1px solid var(--border)}
+.tabs button{font:inherit;font-weight:600;font-size:14px;background:none;border:0;border-bottom:2px solid transparent;color:var(--text-2);padding:8px 12px;cursor:pointer;margin-bottom:-1px}
+.tabs button.on{color:var(--text);border-bottom-color:var(--accent)}
+.cnt{font:inherit;font-size:14px;width:100px;text-align:right;padding:5px 8px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);font-variant-numeric:tabular-nums}
+.cnt:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.cnt.set{border-color:var(--accent);background:var(--accent-soft)}
+#tbInv tr{cursor:default}
+#tbInv td.wrap{white-space:normal;min-width:140px}
+@media (max-width:600px){#tbInv td,#tabInv th{padding:8px 8px}.cnt{width:80px}}
+.mini td,.mini th{padding:6px 8px;font-size:13px}
+#tip{position:fixed;pointer-events:none}
+@media (max-width:900px){.tiles{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}.kv{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){header,main{padding-left:16px;padding-right:16px}.tile .v{font-size:22px}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Inventario Swarovski</h1>
+    <div class="sub" id="sub">Caricamento…</div>
+  </div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <button class="btn" id="btnCsv">Esporta CSV</button>
+    <button class="btn" id="btnExpMov">Backup inventario</button>
+    <label class="btn">Ripristina inventario<input type="file" id="impMov" accept="application/json" hidden></label>
+    <button class="btn" id="btnTheme" aria-label="Cambia tema">◐</button>
+  </div>
+</header>
+<nav class="tabs"><button data-tab="dash" class="on">Dashboard</button><button data-tab="inv">Inventario rimasto</button></nav>
+<main>
+<div id="tabDash">
+  <section class="tiles">
+    <div class="tile"><div class="k">Articoli</div><div class="v" id="kArt">–</div><div class="h">codici distinti</div></div>
+    <div class="tile"><div class="k">Pezzi disponibili</div><div class="v" id="kPz">–</div><div class="h" id="kPzH"></div></div>
+    <div class="tile"><div class="k">Fatture lette</div><div class="v" id="kFt">–</div><div class="h" id="kFtH"></div></div>
+    <div class="tile"><div class="k">Sotto scorta</div><div class="v" id="kLow">–</div><div class="h">soglia: <input id="soglia" type="number" min="0" value="50" style="width:60px;font:inherit;font-size:12px;padding:1px 4px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--text)"> pz</div></div>
+  </section>
+
+  <section class="grid">
+    <div class="card"><h2>Pezzi disponibili per articolo</h2><div class="note">Clic su una barra per filtrare la tabella</div><div class="chart"><canvas id="cArt"></canvas></div></div>
+    <div class="card"><h2>Pezzi disponibili per colore</h2><div class="note">Primi 12 colori · clic per filtrare</div><div class="chart"><canvas id="cCol"></canvas></div></div>
+    <div class="card wide"><h2>Pezzi acquistati per mese</h2><div class="note">Data fattura</div><div class="chart" style="height:240px"><canvas id="cMese"></canvas></div></div>
+  </section>
+
+  <div class="filters">
+    <input type="search" id="q" placeholder="Cerca codice, articolo, colore…">
+    <select id="fArt"><option value="">Tutti gli articoli</option></select>
+    <select id="fCol"><option value="">Tutti i colori</option></select>
+    <select id="fStato"><option value="">Tutte le giacenze</option><option value="low">Sotto scorta</option><option value="out">Esauriti</option></select>
+    <button class="btn" id="btnReset">Azzera filtri</button>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th data-k="codice">Codice</th>
+        <th data-k="articolo">Articolo</th>
+        <th data-k="misuraN">Misura</th>
+        <th data-k="colore">Colore</th>
+        <th data-k="disp" class="num">Disponibili</th>
+        <th data-k="qta" class="num">Acquistati</th>
+        <th data-k="costoUltimo" class="num">Costo unit. €</th>
+        <th data-k="costoMedio" class="num">Costo medio €</th>
+      </tr></thead>
+      <tbody id="tb"></tbody>
+    </table>
+  </div>
+  <div class="foot" id="foot"></div>
+  <div class="foot">Costo unitario = importo riga ÷ quantità (include maggiorazioni e sconti), IVA esclusa. Costo medio = media ponderata sugli acquisti. Disponibili = inventario rimasto inserito; se l'articolo non è ancora stato contato, si usano i pezzi acquistati.</div>
+</div>
+
+<section id="tabInv" hidden>
+  <div class="filters">
+    <input type="search" id="qInv" placeholder="Cerca codice, articolo, colore…">
+    <select id="fArtInv"><option value="">Tutti gli articoli</option></select>
+    <select id="fInvStato"><option value="">Tutti</option><option value="todo">Da contare</option><option value="done">Già contati</option></select>
+  </div>
+  <div class="note" style="color:var(--text-2);margin:0 0 10px">Scrivi quanti pezzi ti restano di ogni articolo: il numero si salva da solo. Lascia vuoto per usare i pezzi acquistati. <b id="invProg"></b></div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Codice</th><th>Descrizione</th><th class="num">Rimasti</th><th class="num">Acquistati</th><th>Contato il</th><th class="num">Costo unit. €</th></tr></thead>
+      <tbody id="tbInv"></tbody>
+    </table>
+  </div>
+  <div class="foot">L'inventario viene salvato in questo browser: usa “Backup inventario” per conservarlo o portarlo su un altro dispositivo.</div>
+</section>
+</main>
+
+<dialog id="dlg">
+  <div class="dlg-h">
+    <div><div style="font-size:18px;font-weight:700" id="dTitle"></div><div class="descr" id="dSub"></div></div>
+    <button class="btn" onclick="dlg.close()">Chiudi</button>
+  </div>
+  <div class="dlg-b">
+    <div class="kv" id="dKv"></div>
+    <h2 style="font-size:14px;margin:4px 0">Andamento costo unitario</h2>
+    <div class="chart" style="height:200px"><canvas id="cDet"></canvas></div>
+    <h2 style="font-size:14px;margin:14px 0 4px">Acquisti e inventario</h2>
+    <table class="mini"><thead><tr><th>Data</th><th>Movimento</th><th class="num">Pezzi</th><th class="num">Costo unit. €</th></tr></thead><tbody id="dMov"></tbody></table>
+  </div>
+</dialog>
+
+<script>
+const $ = s => document.querySelector(s);
+const fmtN = n => n.toLocaleString('it-IT');
+const fmtE = n => n.toLocaleString('it-IT',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtD = d => d.split('-').reverse().join('/');
+const MESI = ['gen','feb','mar','apr','mag','giu','lug','ago','set','ott','nov','dic'];
+const LS = 'inv-swarovski-rimasto';
+let DATA, ART = [], movs = {}, sortK = 'articolo', sortDir = 1, charts = {}, current = null;
+
+function loadMovs(){ try{ movs = JSON.parse(localStorage.getItem(LS)) || {}; }catch(e){ movs = {}; } }
+function saveMovs(){ try{ localStorage.setItem(LS, JSON.stringify(movs)); }catch(e){} }
+const soglia = () => +$('#soglia').value || 0;
+function misuraN(m){ const n = parseFloat(m.replace(/[^\d.]/g,'')); return m.startsWith('SS') ? n/10 : n; }
+
+function recompute(){
+  ART.forEach(a => {
+    const c = movs[a.codice];
+    a.contato = !!c;
+    a.disp = c ? c.qta : a.qta;
+  });
+}
+
+function css(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+function chartOpts(horizontal, onClick){
+  const grid = css('--grid'), tx = css('--text-2');
+  return {
+    responsive:true, maintainAspectRatio:false, indexAxis: horizontal ? 'y' : 'x',
+    animation:{duration:250},
+    plugins:{legend:{display:false},tooltip:{backgroundColor:css('--surface'),titleColor:css('--text'),bodyColor:css('--text'),borderColor:css('--border'),borderWidth:1,padding:10,displayColors:false,callbacks:{label:c=>fmtN(c.parsed[horizontal?'x':'y'])+' pezzi'}}},
+    scales:{
+      x:{grid:{color:horizontal?grid:'transparent'},border:{display:false},ticks:{color:tx,font:{family:'Inter',size:11}}},
+      y:{grid:{color:horizontal?'transparent':grid},border:{display:false},ticks:{color:tx,font:{family:'Inter',size:11}}}
+    },
+    onClick, onHover:(e,el)=>{ e.native.target.style.cursor = el.length && onClick ? 'pointer':'default'; }
+  };
+}
+function bar(id, labels, values, horizontal, onClick){
+  charts[id]?.destroy();
+  charts[id] = new Chart($(id), {type:'bar', data:{labels, datasets:[{data:values, backgroundColor:css('--series'), hoverBackgroundColor:css('--accent'), borderRadius:4, borderSkipped:'start', maxBarThickness:22, categoryPercentage:.8}]}, options:chartOpts(horizontal, onClick)});
+}
+
+function renderCharts(){
+  const byArt = {}, byCol = {}, byMese = {};
+  ART.forEach(a => {
+    const k = 'Art. ' + a.articolo;
+    byArt[k] = (byArt[k]||0) + Math.max(a.disp,0);
+    byCol[a.colore] = (byCol[a.colore]||0) + Math.max(a.disp,0);
+    a.acquisti.forEach(p => { const m = p.data.slice(0,7); byMese[m] = (byMese[m]||0) + p.qta; });
+  });
+  const ea = Object.entries(byArt).sort((a,b)=>b[1]-a[1]);
+  bar('#cArt', ea.map(e=>e[0]), ea.map(e=>e[1]), true, (e,el)=>{ if(el.length){ $('#fArt').value = ea[el[0].index][0].slice(5); renderTable(); scrollTable(); }});
+  const ec = Object.entries(byCol).sort((a,b)=>b[1]-a[1]).slice(0,12);
+  bar('#cCol', ec.map(e=>e[0]), ec.map(e=>e[1]), true, (e,el)=>{ if(el.length){ $('#fCol').value = ec[el[0].index][0]; renderTable(); scrollTable(); }});
+  const ms = Object.keys(byMese).sort();
+  const all = []; if(ms.length){ let [y,m] = ms[0].split('-').map(Number); const [y2,m2] = ms.at(-1).split('-').map(Number);
+    while(y<y2 || (y===y2 && m<=m2)){ all.push(`${y}-${String(m).padStart(2,'0')}`); m++; if(m>12){m=1;y++;} } }
+  bar('#cMese', all.map(k=>{const [y,m]=k.split('-'); return MESI[m-1]+' '+y.slice(2);}), all.map(k=>byMese[k]||0), false);
+}
+function scrollTable(){ $('.filters').scrollIntoView({behavior:'smooth'}); }
+
+function renderTiles(){
+  $('#kArt').textContent = fmtN(ART.length);
+  $('#kPz').textContent = fmtN(ART.reduce((s,a)=>s+Math.max(a.disp,0),0));
+  const n = ART.filter(a=>a.contato).length;
+  $('#kPzH').textContent = n ? `${n} di ${ART.length} articoli contati` : 'inventario non ancora contato';
+  $('#kFt').textContent = DATA.numFatture;
+  $('#kLow').textContent = ART.filter(a=>a.disp<=soglia()).length;
+}
+
+function filtered(){
+  const q = $('#q').value.trim().toLowerCase(), fa = $('#fArt').value, fc = $('#fCol').value, fs = $('#fStato').value;
+  return ART.filter(a => (!fa || a.articolo===fa) && (!fc || a.colore===fc)
+    && (!fs || (fs==='out' ? a.disp<=0 : a.disp<=soglia()))
+    && (!q || [a.codice,a.articolo,a.misura,a.colore,a.sigla,a.descrOriginale].join(' ').toLowerCase().includes(q)));
+}
+function renderTable(){
+  const rows = filtered().sort((a,b)=>{ const x=a[sortK], y=b[sortK]; return (typeof x==='number' ? x-y : String(x).localeCompare(String(y),'it',{numeric:true})) * sortDir; });
+  $('#tb').innerHTML = rows.map(a => {
+    const st = a.disp<=0 ? '<span class="pill out">esaurito</span>' : a.disp<=soglia() ? '<span class="pill low">sotto scorta</span>' : '';
+    const ver = a.verifica ? '<span class="pill ver" title="Nome colore da verificare sul catalogo">da verificare</span>' : '';
+    return `<tr data-c="${a.codice}"><td class="code">${a.codice}</td><td>${a.articolo}</td><td>${a.misura}</td><td>${a.colore}${a.foiled?' <span class="descr">· F</span>':''}${ver}</td><td class="num"><b>${fmtN(a.disp)}</b>${st}</td><td class="num">${fmtN(a.qta)}</td><td class="num">${fmtE(a.costoUltimo)}</td><td class="num">${fmtE(a.costoMedio)}</td></tr>`;
+  }).join('') || '<tr><td colspan="8" class="descr">Nessun articolo trovato</td></tr>';
+  $('#foot').textContent = `${rows.length} articoli · ${fmtN(rows.reduce((s,a)=>s+a.disp,0))} pezzi disponibili`;
+  document.querySelectorAll('th').forEach(th => th.textContent = th.textContent.replace(/ [▲▼]$/,'') + (th.dataset.k===sortK ? (sortDir>0?' ▲':' ▼') : ''));
+}
+
+function openDetail(cod){
+  const a = ART.find(x=>x.codice===cod); current = a;
+  $('#dTitle').textContent = `Codice ${a.codice} | ARTICOLO ${a.articolo} | ${a.misura} | ${a.colore}`;
+  $('#dSub').textContent = `Descrizione fattura: ${a.descrOriginale}${a.foiled?' · F = foiled':''}`;
+  $('#dKv').innerHTML = `<div><b>${fmtN(a.disp)}</b><span>Disponibili</span></div><div><b>${fmtE(a.costoUltimo)}</b><span>Costo unit. ultimo €</span></div><div><b>${fmtE(a.costoMedio)}</b><span>Costo medio €</span></div><div><b>${fmtE(a.costoMin)} – ${fmtE(a.costoMax)}</b><span>Min – max €</span></div>`;
+  renderMov();
+  charts.det?.destroy();
+  const o = chartOpts(false); o.plugins.tooltip.callbacks.label = c => '€ ' + fmtE(c.parsed.y);
+  o.scales.y.ticks.callback = v => fmtE(v);
+  charts.det = new Chart($('#cDet'), {type:'line', data:{labels:a.acquisti.map(p=>fmtD(p.data)), datasets:[{data:a.acquisti.map(p=>p.costo), borderColor:css('--series'), backgroundColor:css('--series'), borderWidth:2, pointRadius:4, pointHoverRadius:6, tension:0, stepped:false}]}, options:o});
+  if(!dlg.open) dlg.showModal();
+}
+function renderMov(){
+  const a = current, c = movs[a.codice];
+  const rows = [...a.acquisti.map(p=>({data:p.data, t:`Fattura ${p.fattura}`, q:'+'+fmtN(p.qta), c:fmtE(p.costo)})),
+    ...(c ? [{data:c.data, t:'<b>Inventario rimasto</b>', q:'<b>'+fmtN(c.qta)+'</b>', c:''}] : [])].sort((x,y)=>y.data.localeCompare(x.data));
+  $('#dMov').innerHTML = rows.map(r=>`<tr><td>${fmtD(r.data)}</td><td>${r.t}</td><td class="num">${r.q}</td><td class="num">${r.c}</td></tr>`).join('');
+}
+
+function descr(a){ return `${a.articolo} · ${a.misura} · ${a.colore}${a.foiled?' F':''}`; }
+function renderInv(){
+  const q = $('#qInv').value.trim().toLowerCase(), fa = $('#fArtInv').value, fs = $('#fInvStato').value;
+  const rows = ART.filter(a => (!fa || a.articolo===fa) && (!fs || (fs==='done') === a.contato)
+    && (!q || [a.codice,a.articolo,a.misura,a.colore,a.sigla].join(' ').toLowerCase().includes(q)))
+    .sort((a,b)=> a.articolo.localeCompare(b.articolo,'it',{numeric:true}) || a.misuraN-b.misuraN || a.colore.localeCompare(b.colore));
+  $('#tbInv').innerHTML = rows.map(a => {
+    const c = movs[a.codice];
+    return `<tr><td class="code">${a.codice}</td><td class="wrap">${descr(a)}</td><td class="num"><input class="cnt${c?' set':''}" type="number" min="0" inputmode="numeric" data-inv="${a.codice}" value="${c?c.qta:''}" placeholder="${a.qta}" aria-label="Pezzi rimasti ${a.codice}"></td><td class="num">${fmtN(a.qta)}</td><td class="descr">${c?fmtD(c.data):'–'}</td><td class="num">${fmtE(a.costoUltimo)}</td></tr>`;
+  }).join('') || '<tr><td colspan="6" class="descr">Nessun articolo trovato</td></tr>';
+  const n = ART.filter(a=>a.contato).length;
+  $('#invProg').textContent = `Contati ${n} di ${ART.length}.`;
+}
+
+function refresh(){ recompute(); renderTiles(); renderCharts(); renderTable(); }
+
+document.addEventListener('click', e => {
+  const tr = e.target.closest('#tb tr[data-c]'); if(tr) return openDetail(tr.dataset.c);
+  const th = e.target.closest('th[data-k]'); if(th){ const k = th.dataset.k; sortDir = sortK===k ? -sortDir : (['disp','qta','costoUltimo','costoMedio'].includes(k)?-1:1); sortK = k; return renderTable(); }
+  const tab = e.target.closest('[data-tab]'); if(tab){
+    document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('on', b===tab));
+    $('#tabDash').hidden = tab.dataset.tab!=='dash'; $('#tabInv').hidden = tab.dataset.tab!=='inv';
+    if(tab.dataset.tab==='dash') renderCharts(); else renderInv();
+  }
+});
+document.addEventListener('change', e => {
+  const inp = e.target.closest('[data-inv]'); if(!inp) return;
+  const v = inp.value.trim(), cod = inp.dataset.inv;
+  if(v === '' || !(+v >= 0)) { delete movs[cod]; inp.value = ''; }
+  else movs[cod] = {qta: Math.round(+v), data: new Date().toISOString().slice(0,10)};
+  saveMovs(); recompute(); renderTiles(); renderTable();
+  inp.classList.toggle('set', !!movs[cod]);
+  inp.closest('tr').children[4].textContent = movs[cod] ? fmtD(movs[cod].data) : '–';
+  $('#invProg').textContent = `Contati ${ART.filter(a=>a.contato).length} di ${ART.length}.`;
+});
+document.addEventListener('keydown', e => {
+  if(e.key==='Enter' && e.target.matches('[data-inv]')){ e.preventDefault(); const all=[...document.querySelectorAll('[data-inv]')]; const n=all[all.indexOf(e.target)+1]; e.target.blur(); n?.focus(); n?.select(); }
+});
+['#qInv','#fArtInv','#fInvStato'].forEach(s => $(s).addEventListener('input', renderInv));
+['#q','#fArt','#fCol','#fStato'].forEach(s => $(s).addEventListener('input', renderTable));
+$('#soglia').addEventListener('input', () => { renderTiles(); renderTable(); });
+$('#btnReset').onclick = () => { $('#q').value=''; $('#fArt').value=''; $('#fCol').value=''; $('#fStato').value=''; renderTable(); };
+$('#btnCsv').onclick = () => {
+  const h = ['Codice','Articolo','Misura','Colore','Sigla','Disponibili','Acquistati','Costo unitario','Costo medio'];
+  const lines = [h, ...filtered().map(a=>[a.codice,a.articolo,a.misura,a.colore,a.sigla,a.disp,a.qta,fmtE(a.costoUltimo),fmtE(a.costoMedio)])].map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(';'));
+  download('inventario-swarovski.csv', '﻿'+lines.join('\n'), 'text/csv');
+};
+$('#btnExpMov').onclick = () => download('inventario-rimasto-swarovski.json', JSON.stringify(movs,null,1), 'application/json');
+$('#impMov').onchange = async e => { try{ movs = JSON.parse(await e.target.files[0].text()); saveMovs(); refresh(); }catch(err){ console.error(err); } e.target.value=''; if(!$('#tabInv').hidden) renderInv(); };
+function download(name, txt, type){ const u = URL.createObjectURL(new Blob([txt],{type})); const l = Object.assign(document.createElement('a'),{href:u,download:name}); l.click(); URL.revokeObjectURL(u); }
+$('#btnTheme').onclick = () => {
+  const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme==='dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.dataset.theme = dark ? 'light' : 'dark';
+  try{ localStorage.setItem('inv-theme', document.documentElement.dataset.theme); }catch(e){}
+  renderCharts();
+};
+try{ const t = localStorage.getItem('inv-theme'); if(t) document.documentElement.dataset.theme = t; }catch(e){}
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => DATA && renderCharts());
+
+fetch('data.json').then(r=>r.json()).then(d => {
+  DATA = d; ART = d.articoli.map(a=>({...a, misuraN:misuraN(a.misura)}));
+  loadMovs();
+  const dates = ART.flatMap(a=>a.acquisti.map(p=>p.data)).sort();
+  $('#sub').textContent = `${d.fornitore} · fatture dal ${fmtD(dates[0])} al ${fmtD(dates.at(-1))}`;
+  $('#kFtH').textContent = `ultima: ${fmtD(dates.at(-1))}`;
+  [...new Set(ART.map(a=>a.articolo))].sort((a,b)=>a-b).forEach(v => { $('#fArt').add(new Option('Art. '+v, v)); $('#fArtInv').add(new Option('Art. '+v, v)); });
+  [...new Set(ART.map(a=>a.colore))].sort().forEach(v => $('#fCol').add(new Option(v, v)));
+  refresh();
+}).catch(err => { $('#sub').textContent = 'Errore nel caricamento dei dati'; console.error(err); });
+</script>
+</body>
+</html>
